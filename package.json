@@ -1,0 +1,19 @@
+{
+  "name": "travel-site",
+  "version": "1.0.0",
+  "description": "## This project starts with pure HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywCN/travel-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ywCN/travel-site/issues"
+  },
+  "homepage": "https://github.com/ywCN/travel-site#readme"
+}
