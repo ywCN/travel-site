@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ywCN/travel-site/issues"
   },
-  "homepage": "https://github.com/ywCN/travel-site#readme"
+  "homepage": "https://github.com/ywCN/travel-site#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
 }
