@@ -11,7 +11,7 @@ gulp.task('html', function() {
 });
 
 gulp.task('styles', function() {
-  console.log("Imagine Sass or PostCSS tasks running here.");
+  gulp.src('./app/assets/styles/styles.css').pipe(gulp.dest('./app/temp/styles'));
 });
 
 gulp.task('watch', function() {
