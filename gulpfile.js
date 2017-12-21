@@ -1,3 +1,4 @@
+// Note: only use ES5 in this file
 var gulp = require('gulp'),
 watch = require('gulp-watch');
 
