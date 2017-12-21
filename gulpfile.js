@@ -1,6 +1,8 @@
 // Note: only use ES5 in this file
 var gulp = require('gulp'),
-watch = require('gulp-watch');
+watch = require('gulp-watch'),
+postcss = require('gulp-postcss'),
+autoprefixer = require('autoprefixer');
 
 gulp.task('default', function() {
   console.log("Hooray - you created a Gulp task.");
@@ -11,7 +13,9 @@ gulp.task('html', function() {
 });
 
 gulp.task('styles', function() {
-  gulp.src('./app/assets/styles/styles.css').pipe(gulp.dest('./app/temp/styles'));
+  gulp.src('./app/assets/styles/styles.css')
+    .pipe(postcss)
+    .pipe(gulp.dest('./app/temp/styles'));
 });
 
 gulp.task('watch', function() {
