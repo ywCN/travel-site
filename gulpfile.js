@@ -14,7 +14,7 @@ gulp.task('html', function() {
 
 gulp.task('styles', function() {
   gulp.src('./app/assets/styles/styles.css')
-    .pipe(postcss)
+    .pipe(postcss([autoprefixer]))
     .pipe(gulp.dest('./app/temp/styles'));
 });
 
