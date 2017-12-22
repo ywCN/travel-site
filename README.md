@@ -1,4 +1,4 @@
-# [travel-site] (https://ywcn.github.io/travel-site)
+# [travel-site](https://ywcn.github.io/travel-site)
 
 ## This project starts with pure HTML and later evolved by adding CSS and JavaScript.
 
