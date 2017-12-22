@@ -42,7 +42,7 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var $ = __webpack_require__(1);
 	var Person = __webpack_require__(2);
@@ -57,9 +57,9 @@
 
 	$("h1").remove();
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	 * jQuery JavaScript Library v2.2.4
@@ -9877,9 +9877,9 @@
 	}));
 
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	function Person(fullName, favColor) {
 	  this.name = fullName;
@@ -9891,5 +9891,5 @@
 
 	module.exports = Person;
 
-/***/ }
+/***/ })
 /******/ ]);
